@@ -27,3 +27,5 @@ The package cat-me also depends on further packages, package-lock.json has depen
 code as well as those for the cat-me package and it continues further down as cat-me needs some 
 package x, package x might need some package y and so on...
 
+* What about node-modules?
+It includes the code for the dependencies so that you can you them.
