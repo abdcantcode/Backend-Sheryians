@@ -28,4 +28,12 @@ code as well as those for the cat-me package and it continues further down as ca
 package x, package x might need some package y and so on...
 
 * What about node-modules?
-It includes the code for the dependencies so that you can you them.
+It includes the code for the dependencies so that you can you them. (For both package.json and package-lock.json)
+
+* What is a server?
+It is essentially a machine with OS, RAM, Processor and storage and is only programmed to give a proper response to a users request.
+
+* Creating a server using express, but how?
+Firstly run the command:
+npm init -y
+REFER TO DAY-1 CONTD
