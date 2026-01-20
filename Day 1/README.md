@@ -19,3 +19,11 @@ An example is as follows:
 const catMe=require("cat-me")
 console.log(catMe()); 
 
+* What about package.json?
+Our code has cat-me package as the main dependency so it will be present in the package.json folder
+
+* What about package-lock.json?
+The package cat-me also depends on further packages, package-lock.json has dependencies for our 
+code as well as those for the cat-me package and it continues further down as cat-me needs some 
+package x, package x might need some package y and so on...
+
