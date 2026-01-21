@@ -14,4 +14,9 @@ You can't be assigning already assigned port numbers to your server
 * How to deal with the constant changing of our code and restarting of the server
 For that use npx nodemon server.js (The name of your file), it watches over your code in case any changes are made or so in the whole of the folder. You will have to install it using npx nodemon server.js though.
 
-* How to deploy your server
+* How to deploy your server?
+Using RENDER:
+1) Select Web service.
+2) Give render the permission to your GitHub.
+3) Choose the repository you want to deploy
+4) Enter the build and start commands.
