@@ -13,3 +13,5 @@ You can't be assigning already assigned port numbers to your server
 
 * How to deal with the constant changing of our code and restarting of the server
 For that use npx nodemon server.js (The name of your file), it watches over your code in case any changes are made or so in the whole of the folder. You will have to install it using npx nodemon server.js though.
+
+* How to deploy your server
