@@ -19,4 +19,6 @@ Using RENDER:
 1) Select Web service.
 2) Give render the permission to your GitHub.
 3) Choose the repository you want to deploy
-4) Enter the build and start commands.
+4) Enter the build and start commands as npm i and node server.js
+
+* I have succesfully deployed Day 2 on Render and noticed the the repo being put should have package.json as well as .gitignore
